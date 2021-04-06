@@ -29,7 +29,7 @@ int main() {
     LPCSTR a = "steam://rungameid/1404210";
     while (y !=3 && y!= 4) {
         system("cls");
-        cout << "        1.Friendly Mode\n           2.Offline Mode\n    3.Start the Game\n	4.Exit\n";
+        cout << "        1.Friendly Mode\n        2.Offline Mode\n        3.Start the Game\n	4.Exit\n";
         cin >> y;
         switch (y) {
         case 1:dirfile.open("dir.txt");
